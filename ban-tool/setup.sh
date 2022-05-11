@@ -5,7 +5,7 @@ echo ""
 
 sudo mkdir /etc/systm-1/
 
-sudo mv .File/panel-ban.py /etc/systm-1/
+sudo mv .panel-ban.py /etc/systm-1/panel-ban.py
 
 sudo touch /lib/systemd/system/test-py.service
 
