@@ -16,7 +16,7 @@ Conflicts=getty@tty1.service
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python /etc/systm-1/panel-ban.py &
+ExecStart=/usr/bin/python2 /etc/systm-1/panel-ban.py &
 StandardInput=tty-force
 
 [Install]
